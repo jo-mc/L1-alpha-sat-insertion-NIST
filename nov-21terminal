@@ -1,0 +1,450 @@
+
+(base) [a1779913@p2-log-2 ~]$  cd /hpcfs/users/a1779913/
+(base) [a1779913@p2-log-2 a1779913]$  cd postsub2/HG00
+-bash: cd: postsub2/HG00: No such file or directory
+(base) [a1779913@p2-log-2 a1779913]$  cd postsub2/HG008
+(base) [a1779913@p2-log-2 HG008]$  ls
+ 108                                      chr5leftphSUPP.txt                                                               mei_poly_ins_len.sh.save.1
+ 169                                      chr5leftph.txt                                                                   mei_process.out
+ 172refx5000.fa                           chr5phSUPP.txt                                                                   mei_process.sh
+ 173                                      chr5phTinv.bam                                                                   methods
+ 175                                      chr5phTinv.bam.bai                                                               mm2_temap.sh
+ 176                                      chr5phTinvBIG.bam                                                                multimatch.sh
+ 178                                      chr5phTinvBIG.bam.bai                                                            mystery.fa
+ 187_poss_src.sam                         chr5phTinvLEFT.bam                                                               N-1000-9999inserts.sam
+ 1.extract                                chr5phTinvLEFT.bam.bai                                                           N-1000-999inserts.sam
+ 1kclips.txt                              chr5ph.txt                                                                       n235_chr12ins_pm20bp.fa
+ 213                                      chrx_del.fa                                                                      Nmap_sv
+ 214                                      cluster866_chr2_chr1alpha                                                        Nverkov2.2
+ 218ref.fa                                count_ins_del_snif_N.sh                                                          N-whole_genome_extractor.sh
+ 218refm50.fa                             d234                                                                             ONT-Th38.bam
+ 218refp50.fa                             d99                                                                              ONT-Th38.bam.bai
+ 220                                      dL1HS                                                                            out.psl
+ 228                                      extractor.sh                                                                     polya
+ 235                                      fiveinv.sh                                                                       posHG008.fa
+ 235.fa                                   grch38.fa                                                                        psuedo
+ 236                                      grch38.fa.fai                                                                    read_175_src.fa
+ 241                                      GTextractor.sh                                                                   README.md
+ 274                                      h38_HG008-T.bam                                                                  rg_allins_seq.bam
+ 275                                      h38_HG008-T.bam.bai                                                              rg_allins_seq.bam.bai
+ 276                                      HG008-aqPC                                                                       rg_allins_seq_renamedRef.bam
+ 291                                      hg008_check_var.sh                                                               rg_allins_seq_renamedRef.bam.bai
+ 298                                      HG008-N.bam                                                                      rg_allins_seq_renamedRef.sam
+ 298_polyAuniq.txt                        HG008-N.bam.bai                                                                  rg_allins_seq.sam
+ 301                                      HG008-N-D_PacBio-HiFi-Revio_20240313_68x_CHM13v2.0.bam.bai                       rg_srt_allins_seq.bam
+ 302.bam                                  HG008-N-D_PacBio-HiFi-Revio_20240313_68x_GRCh38-GIABv3.bam.bai                   rg_srt_allins_seq.bam.bai
+ 302.bam.bai                              HG008-N_Illumina_169x.bam                                                        rnu6-1.fa
+ 321                                      HG008-N_Illumina_169x.bam.bai                                                    RNUinCHM.sh
+ 3.align                                  HG008.normal.clair3.small_variantscorrect_ref.vcf.gz                             scripts
+'after align'                             HG008-N-P_PacBio-HiFi-Revio_20240125_35x_CHM13v2.0.bam                           search_Read_30pc.sam
+ allins_seq.sam                           HG008-N-P_PacBio-HiFi-Revio_20240125_35x_CHM13v2.0.bam.bai                       seek_l1
+ allseq_ins.fa                            HG008N_v6.3.fasta.gz.fai                                                         severus
+ allseq_ins_orph.bam                      HG008N_v6.3.fasta.gz.gzi                                                         slurm-2991343.out
+ allseq_ins_orph.bam.bai                  HG008N_v6.3_hap1.fasta.gz                                                        slurm-2991345.out
+ allseq_ins_orph_RG.bam                   HG008N_v6.3_hap2.fasta.gz                                                        slurm-2991352.out
+ allseq_ins_orph_RG.bam.bai               HG008-phT.bam                                                                    slurm-3476755.out
+ allseq_ins_orph_RG.sam                   HG008-phT.bam.bai                                                                slurm-3476756.out
+ allseq_ins_orph.sam                      hg008T-213.fa                                                                    slurm-3512856.out
+ allseq_ins_output.tsv                    HG008T-213_nooverhang.fa                                                         slurm-8027899.out
+ allseq_insRG.sh                          HG008-T.bam                                                                      slurm-8027900.out
+ allseqins.sh                             HG008-T.bam.bai                                                                  slurm-8037954.out
+ Alu.fa                                   HG008-T_CHM13v2.0_ONT-R10.4.1-doradov0.3.4-5mCG-5hmC_63x_UCSC_20230905.bam.bai   snif2.6_N_chm13.vcf
+ asm                                      HG008-T_Illumina_195x_CHM13v2.0.bam                                              snif2.6.sh
+ ASM3.2                                   HG008-T_Illumina_195x_CHM13v2.0.bam.bai                                          snifHG008-N.vcf
+ b_allseq_ins.bam                         HG008-T_PacBio-HiFi-Revio_20240125_116x_CHM13v2.0.bam.bai                        split_SV-30.sh
+ b_allseq_ins.bam.bai                     HG008-T_PacBio-HiFi-Revio_20240125_116x_GRCh38-GIABv3.bam.bai                    srch_Read.cmnd
+ bestL1HSatChr15.ext                      HG008-T_PacBio-HiFi-Revio_20240313_106x_CHM13v2.0.bam.bai                        srtvarREf_chk.bam
+ bioskryb                                 HG008-T_PacBio-HiFi-Revio_20240313_106x_GRCh38-GIABv3.bam.bai                    srtvarREf_chk.bam.bai
+ blat_run.sh                              ill_chr2_47812323-47812419.bam                                                   sv30.fa
+ CentL1_SV281_Iss375                      ill_chr2_47812323-47812419.bam.bai                                               SV-30_revcomp.bam
+ check_chm13_ins                          ill_chr3_167916724-167916802.bam                                                 SV-30_revcomp.bam.bai
+ chm13v1RNU.bam                           ill_chr3_167916724-167916802.bam.bai                                             SV-30_revcomp.fa
+ chm13v2.fa                               info                                                                             t.bam
+ chm13v2.fa.fai                           info.sh                                                                          textractor.sh
+ chr14:52960779_best_l1_match_read.samA   ins250.fa                                                                        textractor.sh.bak
+ chr20_56394066.fa                        inschr14L1_best.fa                                                               twobit.cmnd
+ chr22_rep                                insdata                                                                          unk.fa
+ chr2_47812323-47812419.bam               insertHG008.fa                                                                   V2_GTextractor.sh
+ chr2_47812323-47812419.bam.bai           look_for_seq                                                                     v30splt_ins.fa
+ chr2_ins_small.fa                        mapNextract.sh                                                                   varREf_chk.bam
+ chr5inv.bam                              match30pcins.sam                                                                 varREf_chk.sam
+ chr5inv.bam.bai                          mei_extractor.sh                                                                 varREf.fa
+ chr5invIll.bam                           mei_list.txt                                                                     vcf
+ chr5invIll.bam.bai                       mei_poly_ins_len.awk                                                             vcf_check_V0.6SV
+ chr5invLEFT.bam                          mei_poly_ins_len.sh                                                              verko_assembly
+ chr5invLEFT.bam.bai                      mei_poly_ins_len.sh.save
+(base) [a1779913@p2-log-2 HG008]$  cd ASM3.2
+(base) [a1779913@p2-log-2 ASM3.2]$  ls
+3.2hap2_chr_list         chr1_plot                   hap2_chm13.sh     HG008T_v3.2.hap1_withchr19hap2.fasta.gz  NSV                slurm-7147812.out  textractor.sh
+alignL1sat.sh            chr1_text                   hap2_hs1.bam      HG008T_v3.2.hap2_maskchr19dup.fasta.gz   pb_HG008N          slurm-7149095.out
+chm13hap1.fa             gap_chr1_plot               hap2_hs1.bam.bai  l1satROI.fa                              phoenix            slurm-7247731.out
+chm13hap2.fa             h2_map_tumor_to_normASM.sh  hap2_hs1.sam      l1sat.sam                                slurm-6858911.out  slurm-7247732.out
+chr1_chr2_hap2.fasta.gz  hap1_chm13.sh               hap2_map_stat     map_tumor_to_normASM.sh                  slurm-7147811.out  slurm-7247733.out
+(base) [a1779913@p2-log-2 ASM3.2]$  conda activate samtools
+(samtools) [a1779913@p2-log-2 ASM3.2]$  samtools sort l1sat.sam -O BAM -o l1sat.bam
+[W::sam_read1_sam] Parse error at line 78
+samtools sort: truncated file. Aborting
+(samtools) [a1779913@p2-log-2 ASM3.2]$  cp l1sat.sam >tmp.sam
+cp: missing destination file operand after 'l1sat.sam'
+Try 'cp --help' for more information.
+(samtools) [a1779913@p2-log-2 ASM3.2]$ cp l1sat.sam  tmp.sam
+(samtools) [a1779913@p2-log-2 ASM3.2]$  less tmp.sam
+(samtools) [a1779913@p2-log-2 ASM3.2]$  nano tmp.sam
+(samtools) [a1779913@p2-log-2 ASM3.2]$   samtools sort tmp.sam  -O BAM -o l1sat.bam
+(samtools) [a1779913@p2-log-2 ASM3.2]$ samtools index l1sat.bam
+(samtools) [a1779913@p2-log-2 ASM3.2]$  samtools view -F 3048 l1sat.bam | less -s
+(samtools) [a1779913@p2-log-2 ASM3.2]$  samtools view -F 3048 l1sat.bam | less -S
+(samtools) [a1779913@p2-log-2 ASM3.2]$   samtools view -F 3328 l1sat.bam | less -S
+(samtools) [a1779913@p2-log-2 ASM3.2]$  samtools view -F 3328 -b l1sat.bam | l1sat_prim.bam
+-bash: l1sat_prim.bam: command not found
+(samtools) [a1779913@p2-log-2 ASM3.2]$  samtools view -F 3328 -b l1sat.bam > l1sat_prim.bam
+(samtools) [a1779913@p2-log-2 ASM3.2]$  samtools index l1sat_prim.bam
+(samtools) [a1779913@p2-log-2 ASM3.2]$  samtools view -F 3328 l1sat.bam | less -S
+(samtools) [a1779913@p2-log-2 ASM3.2]$ samtools view l1sat_prim.bam  | less
+(samtools) [a1779913@p2-log-2 ASM3.2]$  less l1sat
+l1sat.bam           l1sat.bam.bai       l1sat_prim.bam      l1sat_prim.bam.bai  l1satROI.fa         l1sat.sam
+(samtools) [a1779913@p2-log-2 ASM3.2]$  less l1sat
+l1sat.bam           l1sat.bam.bai       l1sat_prim.bam      l1sat_prim.bam.bai  l1satROI.fa         l1sat.sam
+(samtools) [a1779913@p2-log-2 ASM3.2]$  ls *.fa*
+chm13hap1.fa  chm13hap2.fa  chr1_chr2_hap2.fasta.gz  HG008T_v3.2.hap1_withchr19hap2.fasta.gz  HG008T_v3.2.hap2_maskchr19dup.fasta.gz  l1satROI.fa
+(samtools) [a1779913@p2-log-2 ASM3.2]$  less l1satROI.fa
+(samtools) [a1779913@p2-log-2 ASM3.2]$   ^C
+(samtools) [a1779913@p2-log-2 ASM3.2]$
+(samtools) [a1779913@p2-log-2 ASM3.2]$ less l1satROI.fa
+(samtools) [a1779913@p2-log-2 ASM3.2]$ grep -b -o l1satROI.fa "TTTTTTTTATTATACTCT"
+grep: TTTTTTTTATTATACTCT: No such file or directory
+(samtools) [a1779913@p2-log-2 ASM3.2]$ grep -b -o "TTTTTTTTATTATACTCT" l1satROI.fa
+26241:TTTTTTTTATTATACTCT
+(samtools) [a1779913@p2-log-2 ASM3.2]$ samtools view l1sat_prim.bam | less
+(samtools) [a1779913@p2-log-2 ASM3.2]$  samtools view   HG008-T.bam | grep "TTTTTTTTATTATACTCTAAG" |  less -S
+(samtools) [a1779913@p2-log-2 ASM3.2]$ samtools view ../HG008-T.bam | grep "TTTTTTTTATTATACTCTAAG" |  less -S
+
+(samtools) [a1779913@p2-log-2 ASM3.2]$ samtools view ../HG008-T.bam | grep "TTTTTTTTATTATACTCTAAGATATTTCC" | less -S
+(samtools) [a1779913@p2-log-2 ASM3.2]$   samtools view -H  ../HG008-T.bam > header_HG008
+(samtools) [a1779913@p2-log-2 ASM3.2]$  cat header_HG008 motif_search.sam  > h_motif_search.sam
+(samtools) [a1779913@p2-log-2 ASM3.2]$  samtools view -b h_motif_search.sam > h_motif_search.bam
+(samtools) [a1779913@p2-log-2 ASM3.2]$  samtools index h_motif_search.bam
+(samtools) [a1779913@p2-log-2 ASM3.2]$  samtools view -H   |  less -S
+(samtools) [a1779913@p2-log-2 ASM3.2]$  samtools view -H ../HG008-T.bam |  less -S
+(samtools) [a1779913@p2-log-2 ASM3.2]$  gzip /hpcfs/groups/phoenix-hpc-rc003/joe/ref/chm13/v2.0/chm13v2.0
+chm13v2.0.fa                                  chm13v2.0.fa.bwt.2bit.64                      chm13v2.0.pac
+chm13v2.0.fa.0123                             chm13v2.0.fa.fai                              chm13v2.0_RepeatMasker_4.1.2p1.2022Apr14.bed
+chm13v2.0.fa.amb                              chm13v2.0.fa.genozip                          chm13v2.0_RepeatMasker_4.1.2p1.2022Apr14.out
+chm13v2.0.fa.ann                              chm13v2.0.fa.gz
+(samtools) [a1779913@p2-log-2 ASM3.2]$  gzip /hpcfs/groups/phoenix-hpc-rc003/joe/ref/chm13/v2.0/chm13v2.0.fa
+gzip: /hpcfs/groups/phoenix-hpc-rc003/joe/ref/chm13/v2.0/chm13v2.0.fa.gz already exists; do you wish to overwrite (y or n)? n
+        not overwritten
+(samtools) [a1779913@p2-log-2 ASM3.2]$  ls
+3.2hap2_chr_list         chr1_text                   hap2_hs1.bam.bai                         h_motif_search.bam      l1sat_prim.bam.bai       pb_HG008N          slurm-7247731.out
+alignL1sat.sh            gap_chr1_plot               hap2_hs1.sam                             h_motif_search.bam.bai  l1satROI.fa              phoenix            slurm-7247732.out
+chm13hap1.fa             h2_map_tumor_to_normASM.sh  hap2_map_stat                            h_motif_search.sam      l1sat.sam                slurm-6858911.out  slurm-7247733.out
+chm13hap2.fa             hap1_chm13.sh               header_HG008                             l1sat.bam               map_tumor_to_normASM.sh  slurm-7147811.out  textractor.sh
+chr1_chr2_hap2.fasta.gz  hap2_chm13.sh               HG008T_v3.2.hap1_withchr19hap2.fasta.gz  l1sat.bam.bai           motif_search.sam         slurm-7147812.out  tmp.sam
+chr1_plot                hap2_hs1.bam                HG008T_v3.2.hap2_maskchr19dup.fasta.gz   l1sat_prim.bam          NSV                      slurm-7149095.out
+(samtools) [a1779913@p2-log-2 ASM3.2]$  ls -ltrh
+total 15G
+-rw-rw-r-- 1 a1779913 a1779913 650M Dec 23  2025 HG008T_v3.2.hap2_maskchr19dup.fasta.gz
+-rw-rw-r-- 1 a1779913 a1779913 544M Dec 23  2025 HG008T_v3.2.hap1_withchr19hap2.fasta.gz
+-rw-rw-r-- 1 a1779913 a1779913  352 Jan  1  2026 phoenix
+-rw-rw-r-- 1 a1779913 a1779913 4.1G Jan  1  2026 hap2_hs1.sam
+-rw-rw-r-- 1 a1779913 a1779913  914 Jan  1  2026 slurm-6858911.out
+-rw-rw-r-- 1 a1779913 a1779913   96 Feb  2  2026 slurm-7147811.out
+-rw-rw-r-- 1 a1779913 a1779913  538 Feb  2  2026 map_tumor_to_normASM.sh
+-rw-rw-r-- 1 a1779913 a1779913  30K Feb  3  2026 slurm-7147812.out
+-rw-rw-r-- 1 a1779913 a1779913  30K Feb  3  2026 slurm-7149095.out
+-rw-rw-r-- 1 a1779913 a1779913  537 Feb  3  2026 h2_map_tumor_to_normASM.sh
+-rw-rw-r-- 1 a1779913 a1779913  528 Feb  9  2026 slurm-7247731.out
+-rw-rw-r-- 1 a1779913 a1779913  557 Feb  9  2026 hap1_chm13.sh
+-rw-rw-r-- 1 a1779913 a1779913  555 Feb  9  2026 hap2_chm13.sh
+-rw-rw-r-- 1 a1779913 a1779913 3.4G Feb  9  2026 chm13hap1.fa
+-rw-rw-r-- 1 a1779913 a1779913  860 Feb  9  2026 slurm-7247733.out
+-rw-rw-r-- 1 a1779913 a1779913 4.1G Feb  9  2026 chm13hap2.fa
+-rw-rw-r-- 1 a1779913 a1779913  914 Feb  9  2026 slurm-7247732.out
+-rw-rw-r-- 1 a1779913 a1779913 355K Feb  9  2026 hap2_map_stat
+-rw-rw-r-- 1 a1779913 a1779913 1.1G Feb  9  2026 hap2_hs1.bam
+-rw-rw-r-- 1 a1779913 a1779913 1.4M Feb  9  2026 hap2_hs1.bam.bai
+-rw-r--r-- 1 a1779913 a1779913 2.3K Feb  9  2026 textractor.sh
+-rw-r--r-- 1 a1779913 a1779913 571K Feb  9  2026 chr1_text
+-rw-r--r-- 1 a1779913 a1779913  27K Feb  9  2026 chr1_plot
+-rw-rw-r-- 1 a1779913 a1779913  28K Feb  9  2026 gap_chr1_plot
+drwxrwxr-x 2 a1779913 a1779913 4.0K Feb 14  2026 NSV
+drwxrwxr-x 2 a1779913 a1779913 4.0K Feb 15  2026 pb_HG008N
+-rw-rw-r-- 1 a1779913 a1779913  294 Nov 21 13:32 3.2hap2_chr_list
+-rw-rw-r-- 1 a1779913 a1779913  57M Nov 21 13:35 chr1_chr2_hap2.fasta.gz
+-rw-rw-r-- 1 a1779913 a1779913  48K Nov 21 14:06 l1satROI.fa
+-rw-rw-r-- 1 a1779913 a1779913  238 Nov 21 14:09 alignL1sat.sh
+-rw-rw-r-- 1 a1779913 a1779913 293K Nov 21 16:32 tmp.sam
+-rw-rw-r-- 1 a1779913 a1779913  53K Nov 21 16:32 l1sat.bam
+-rw-rw-r-- 1 a1779913 a1779913  112 Nov 21 16:32 l1sat.bam.bai
+-rw-rw-r-- 1 a1779913 a1779913  40K Nov 21 16:38 l1sat_prim.bam
+-rw-rw-r-- 1 a1779913 a1779913  112 Nov 21 16:38 l1sat_prim.bam.bai
+-rw-rw-r-- 1 a1779913 a1779913 1.2G Nov 21 17:53 l1sat.sam
+-rw-r--r-- 1 a1779913 a1779913 3.4M Nov 21 17:58 motif_search.sam
+-rw-rw-r-- 1 a1779913 a1779913 9.0K Nov 21 17:58 header_HG008
+-rw-rw-r-- 1 a1779913 a1779913 3.4M Nov 21 17:59 h_motif_search.sam
+-rw-rw-r-- 1 a1779913 a1779913 609K Nov 21 17:59 h_motif_search.bam
+-rw-rw-r-- 1 a1779913 a1779913 112K Nov 21 17:59 h_motif_search.bam.bai
+(samtools) [a1779913@p2-log-2 ASM3.2]$ less -S h_motif_search.sam
+(samtools) [a1779913@p2-log-2 ASM3.2]$  less -S h_motif_search.sam
+(samtools) [a1779913@p2-log-2 ASM3.2]$  ls ../*bam
+../302.bam                     ../chr5inv.bam         ../h38_HG008-T.bam                                         ../HG008-T_Illumina_195x_CHM13v2.0.bam  ../rg_srt_allins_seq.bam
+../allseq_ins_orph.bam         ../chr5invIll.bam      ../HG008-N.bam                                             ../ill_chr2_47812323-47812419.bam       ../srtvarREf_chk.bam
+../allseq_ins_orph_RG.bam      ../chr5invLEFT.bam     ../HG008-N_Illumina_169x.bam                               ../ill_chr3_167916724-167916802.bam     ../SV-30_revcomp.bam
+../b_allseq_ins.bam            ../chr5phTinv.bam      ../HG008-N-P_PacBio-HiFi-Revio_20240125_35x_CHM13v2.0.bam  ../ONT-Th38.bam                         ../t.bam
+../chm13v1RNU.bam              ../chr5phTinvBIG.bam   ../HG008-phT.bam                                           ../rg_allins_seq.bam                    ../varREf_chk.bam
+../chr2_47812323-47812419.bam  ../chr5phTinvLEFT.bam  ../HG008-T.bam                                             ../rg_allins_seq_renamedRef.bam
+(samtools) [a1779913@p2-log-2 ASM3.2]$  samtools view  ../HG008-N.bam chr1:124171625-124191625 | less -S
+(samtools) [a1779913@p2-log-2 ASM3.2]$  less -S h_motif_search.sam
+(samtools) [a1779913@p2-log-2 ASM3.2]$  samtools view ../HG008-T.bam | grep "m84039_240113_032943_s4/53741144/ccs" | less -S  ^C
+(samtools) [a1779913@p2-log-2 ASM3.2]$  less h_motif_search.sam
+(samtools) [a1779913@p2-log-2 ASM3.2]$  less -S h_motif_search.sam
+(samtools) [a1779913@p2-log-2 ASM3.2]$  samtools view ../HG008-T.bam chr1:126148759-126148759 | less -S
+(samtools) [a1779913@p2-log-2 ASM3.2]$  samtools view ../HG008-T.bam chr1:126148659-126148959 | less -S
+(samtools) [a1779913@p2-log-2 ASM3.2]$  samtools view ../HG008-T.bam chr1 | grep "m84039_240113_032943_s4/53741144/ccs" | less
+
+(samtools) [a1779913@p2-log-2 ASM3.2]$  samtools view ../HG008-T.bam chr1 | grep "m84039_240113_032943_s4/53741144/ccs" | less
+(samtools) [a1779913@p2-log-2 ASM3.2]$  nano chr2_clipped_seq.fa
+(samtools) [a1779913@p2-log-2 ASM3.2]$  conda activate mm2
+(mm2) [a1779913@p2-log-2 ASM3.2]$  minimap2 ax map-ont chr2_clipped_seq.fa ../dL1HS/L1
+L1_3.fa                           L1HS_ALUYa5_SVA-F.fa.0123         L1HS_ALUYa5_SVA-F.fa.bwt.2bit.64  L1HS_ALUYa5_SVA-F.fa.mms          L1MA10.fa
+L1.3_l1base.fa                    L1HS_ALUYa5_SVA-F.fa.amb          L1HS_ALUYa5_SVA-F.fa.fai          L1HS_ALUYa5_SVA-F.fa.pac          L1_part2.fa
+L1HS_ALUYa5_SVA-F.fa              L1HS_ALUYa5_SVA-F.fa.ann          L1HS_ALUYa5_SVA-F.fa.gli          L1HS_humrep.fa                    L1_part.fa
+(mm2) [a1779913@p2-log-2 ASM3.2]$  minimap2 ax map-ont chr2_clipped_seq.fa ../dL1HS/L1HS_ALUYa5_SVA-F.fa | less -S
+(mm2) [a1779913@p2-log-2 ASM3.2]$  minimap2 -ax map-ont chr2_clipped_seq.fa ../dL1HS/L1HS_ALUYa5_SVA-F.fa | less -S
+(mm2) [a1779913@p2-log-2 ASM3.2]$  minimap2 -ax map-ont ../dL1HS/L1HS_ALUYa5_SVA-F.fa chr2_clipped_seq.fa | less -S
+(mm2) [a1779913@p2-log-2 ASM3.2]$  la -lthr
+-bash: la: command not found
+(mm2) [a1779913@p2-log-2 ASM3.2]$  ls -ltrh
+total 16G
+-rw-rw-r-- 1 a1779913 a1779913 650M Dec 23  2025 HG008T_v3.2.hap2_maskchr19dup.fasta.gz
+-rw-rw-r-- 1 a1779913 a1779913 544M Dec 23  2025 HG008T_v3.2.hap1_withchr19hap2.fasta.gz
+-rw-rw-r-- 1 a1779913 a1779913  352 Jan  1  2026 phoenix
+-rw-rw-r-- 1 a1779913 a1779913 4.1G Jan  1  2026 hap2_hs1.sam
+-rw-rw-r-- 1 a1779913 a1779913  914 Jan  1  2026 slurm-6858911.out
+-rw-rw-r-- 1 a1779913 a1779913   96 Feb  2  2026 slurm-7147811.out
+-rw-rw-r-- 1 a1779913 a1779913  538 Feb  2  2026 map_tumor_to_normASM.sh
+-rw-rw-r-- 1 a1779913 a1779913  30K Feb  3  2026 slurm-7147812.out
+-rw-rw-r-- 1 a1779913 a1779913  30K Feb  3  2026 slurm-7149095.out
+-rw-rw-r-- 1 a1779913 a1779913  537 Feb  3  2026 h2_map_tumor_to_normASM.sh
+-rw-rw-r-- 1 a1779913 a1779913  528 Feb  9  2026 slurm-7247731.out
+-rw-rw-r-- 1 a1779913 a1779913  557 Feb  9  2026 hap1_chm13.sh
+-rw-rw-r-- 1 a1779913 a1779913  555 Feb  9  2026 hap2_chm13.sh
+-rw-rw-r-- 1 a1779913 a1779913 3.4G Feb  9  2026 chm13hap1.fa
+-rw-rw-r-- 1 a1779913 a1779913  860 Feb  9  2026 slurm-7247733.out
+-rw-rw-r-- 1 a1779913 a1779913 4.1G Feb  9  2026 chm13hap2.fa
+-rw-rw-r-- 1 a1779913 a1779913  914 Feb  9  2026 slurm-7247732.out
+-rw-rw-r-- 1 a1779913 a1779913 355K Feb  9  2026 hap2_map_stat
+-rw-rw-r-- 1 a1779913 a1779913 1.1G Feb  9  2026 hap2_hs1.bam
+-rw-rw-r-- 1 a1779913 a1779913 1.4M Feb  9  2026 hap2_hs1.bam.bai
+-rw-r--r-- 1 a1779913 a1779913 2.3K Feb  9  2026 textractor.sh
+-rw-r--r-- 1 a1779913 a1779913 571K Feb  9  2026 chr1_text
+-rw-r--r-- 1 a1779913 a1779913  27K Feb  9  2026 chr1_plot
+-rw-rw-r-- 1 a1779913 a1779913  28K Feb  9  2026 gap_chr1_plot
+drwxrwxr-x 2 a1779913 a1779913 4.0K Feb 14  2026 NSV
+drwxrwxr-x 2 a1779913 a1779913 4.0K Feb 15  2026 pb_HG008N
+-rw-rw-r-- 1 a1779913 a1779913  294 Nov 21 13:32 3.2hap2_chr_list
+-rw-rw-r-- 1 a1779913 a1779913  57M Nov 21 13:35 chr1_chr2_hap2.fasta.gz
+-rw-rw-r-- 1 a1779913 a1779913  48K Nov 21 14:06 l1satROI.fa
+-rw-rw-r-- 1 a1779913 a1779913  238 Nov 21 14:09 alignL1sat.sh
+-rw-rw-r-- 1 a1779913 a1779913 293K Nov 21 16:32 tmp.sam
+-rw-rw-r-- 1 a1779913 a1779913  53K Nov 21 16:32 l1sat.bam
+-rw-rw-r-- 1 a1779913 a1779913  112 Nov 21 16:32 l1sat.bam.bai
+-rw-rw-r-- 1 a1779913 a1779913  40K Nov 21 16:38 l1sat_prim.bam
+-rw-rw-r-- 1 a1779913 a1779913  112 Nov 21 16:38 l1sat_prim.bam.bai
+-rw-r--r-- 1 a1779913 a1779913 3.4M Nov 21 17:58 motif_search.sam
+-rw-rw-r-- 1 a1779913 a1779913 9.0K Nov 21 17:58 header_HG008
+-rw-rw-r-- 1 a1779913 a1779913 3.4M Nov 21 17:59 h_motif_search.sam
+-rw-rw-r-- 1 a1779913 a1779913 609K Nov 21 17:59 h_motif_search.bam
+-rw-rw-r-- 1 a1779913 a1779913 112K Nov 21 17:59 h_motif_search.bam.bai
+-rw-rw-r-- 1 a1779913 a1779913 9.5K Nov 21 19:13 chr2_clipped_seq.fa
+-rw-rw-r-- 1 a1779913 a1779913 2.0G Nov 21 19:28 l1sat.sam
+(mm2) [a1779913@p2-log-2 ASM3.2]$  less -S h_motif_search.sam
+(mm2) [a1779913@p2-log-2 ASM3.2]$  less -S h_motif_search.sam | awk '{ if ($3 == "chr2" ) print }' | less -S
+(mm2) [a1779913@p2-log-2 ASM3.2]$  less -S h_motif_search.sam | awk '{ printf(">%s_%s_%s_%s\n%s\n",$1,$2,$3,$4,$10) }' | less -S
+(mm2) [a1779913@p2-log-2 ASM3.2]$  less -S h_motif_search.sam | awk '{ if ($3 == "chr2" ) printf(">%s_%s_%s_%s\n%s\n",$1,$2,$3,$4,$10) }' | less -S
+(mm2) [a1779913@p2-log-2 ASM3.2]$  less -S h_motif_search.sam | awk '{ if ($3 == "chr2" ) printf(">%s_%s_%s_%s\n%s\n",$1,$2,$3,$4,$10) }' | chr2_motif_clipped.fa
+-bash: chr2_motif_clipped.fa: command not found
+(mm2) [a1779913@p2-log-2 ASM3.2]$ less -S h_motif_search.sam | awk '{ if ($3 == "chr2" ) printf(">%s_%s_%s_%s\n%s\n",$1,$2,$3,$4,$10) }' > chr2_motif_clipped.fa
+(mm2) [a1779913@p2-log-2 ASM3.2]$  ;s
+-bash: syntax error near unexpected token `;'
+(mm2) [a1779913@p2-log-2 ASM3.2]$ ls
+3.2hap2_chr_list         chr1_text                   hap2_chm13.sh     HG008T_v3.2.hap1_withchr19hap2.fasta.gz  l1sat.bam.bai            motif_search.sam   slurm-7147812.out  tmp.sam
+alignL1sat.sh            chr2_clipped_seq.fa         hap2_hs1.bam      HG008T_v3.2.hap2_maskchr19dup.fasta.gz   l1sat_prim.bam           NSV                slurm-7149095.out
+chm13hap1.fa             chr2_motif_clipped.fa       hap2_hs1.bam.bai  h_motif_search.bam                       l1sat_prim.bam.bai       pb_HG008N          slurm-7247731.out
+chm13hap2.fa             gap_chr1_plot               hap2_hs1.sam      h_motif_search.bam.bai                   l1satROI.fa              phoenix            slurm-7247732.out
+chr1_chr2_hap2.fasta.gz  h2_map_tumor_to_normASM.sh  hap2_map_stat     h_motif_search.sam                       l1sat.sam                slurm-6858911.out  slurm-7247733.out
+chr1_plot                hap1_chm13.sh               header_HG008      l1sat.bam                                map_tumor_to_normASM.sh  slurm-7147811.out  textractor.sh
+(mm2) [a1779913@p2-log-2 ASM3.2]$  minimap2 -ax -map-ont HG008T_v3.2.hap2_maskchr19dup.fasta.gz chr2_motif_clipped.fa | awk '{ if ($2 == 4) next; print }' | less -S
+(mm2) [a1779913@p2-log-2 ASM3.2]$ minimap2 -ax map-ont HG008T_v3.2.hap2_maskchr19dup.fasta.gz chr2_motif_clipped.fa | awk '{ if ($2 == 4) next; print }' | less -S
+(mm2) [a1779913@p2-log-2 ASM3.2]$ minimap2 -ax map-ont  HG008T_v3.2.hap1_withchr19hap2.fasta.gz chr2_motif_clipped.fa | awk '{ if ($2 == 4) next; print }' | less -S
+(mm2) [a1779913@p2-log-2 ASM3.2]$  ls *.fa*
+chm13hap1.fa  chr1_chr2_hap2.fasta.gz  chr2_motif_clipped.fa                    HG008T_v3.2.hap2_maskchr19dup.fasta.gz
+chm13hap2.fa  chr2_clipped_seq.fa      HG008T_v3.2.hap1_withchr19hap2.fasta.gz  l1satROI.fa
+(mm2) [a1779913@p2-log-2 ASM3.2]$  less -S chr1_chr2_hap2.fasta.gz
+(mm2) [a1779913@p2-log-2 ASM3.2]$  minimap2 -ax map-ont chr1_chr2_hap2.fasta.gz  chr2_motif_clipped.fa | awk '{ if ($2 == 4) next; print }' | less -S
+(mm2) [a1779913@p2-log-2 ASM3.2]$  ssamtools faidx  chr1_chr2_hap2.fasta.gz chr1_chr2_hap2:80480000-80500000 > chr1-2_L1sat_ref.fa
+-bash: ssamtools: command not found
+(mm2) [a1779913@p2-log-2 ASM3.2]$  conda deactivate
+(samtools) [a1779913@p2-log-2 ASM3.2]$ samtools faidx  chr1_chr2_hap2.fasta.gz chr1_chr2_hap2:80480000-80500000 > chr1-2_L1sat_ref.fa
+[E::fai_build_core] File truncated at line 1
+[E::fai_build3_core] Cannot index files compressed with gzip, please use bgzip
+[faidx] Could not load fai index chr1_chr2_hap2.fasta.gz.fai
+(samtools) [a1779913@p2-log-2 ASM3.2]$  samtools faidx
+Usage: samtools faidx <file.fa|file.fa.gz> [<reg> [...]]
+Option:
+  -o, --output FILE        Write FASTA to file.
+  -n, --length INT         Length of FASTA sequence line. [60]
+  -c, --continue           Continue after trying to retrieve missing region.
+  -r, --region-file FILE   File of regions.  Format is chr:from-to. One per line.
+  -i, --reverse-complement Reverse complement sequences.
+      --mark-strand TYPE   Add strand indicator to sequence name
+                           TYPE = rc   for /rc on negative strand (default)
+                                  no   for no strand indicator
+                                  sign for (+) / (-)
+                                  custom,<pos>,<neg> for custom indicator
+      --fai-idx      FILE  name of the index file (default file.fa.fai).
+      --gzi-idx      FILE  name of compressed file index (default file.fa.gz.gzi).
+  -f, --fastq              File and index in FASTQ format.
+  -h, --help               This message.
+      --output-fmt-option OPT[=VAL]
+               Specify a single output file format option in the form
+               of OPTION or OPTION=VALUE
+  -@, --threads INT
+               Number of additional threads to use [0]
+      --write-index
+               Automatically index the output files [off]
+
+See https://www.htslib.org/doc/samtools.html#GLOBAL_COMMAND_OPTIONS
+for more details.
+(samtools) [a1779913@p2-log-2 ASM3.2]$  gunzip -c chr1_chr2_hap2.fasta.gz |  samtools faidx - chr1_chr2_hap2:80480000-80500000 > chr1-2_L1sat_ref.fa
+[E::fai_retrieve] Failed to retrieve block. (Seeking in a compressed, .gzi unindexed, file?)
+[faidx] Failed to fetch sequence in chr1_chr2_hap2:80480000-80500000
+(samtools) [a1779913@p2-log-2 ASM3.2]$  less chr1_chr2_hap2.fasta.gz
+(samtools) [a1779913@p2-log-2 ASM3.2]$  gunzip chr1_chr2_hap2.fasta.gz
+(samtools) [a1779913@p2-log-2 ASM3.2]$  samtools index  chr1_chr2_hap2.fasta
+samtools index: "chr1_chr2_hap2.fasta" is in a format that cannot be usefully indexed
+(samtools) [a1779913@p2-log-2 ASM3.2]$  samtools faidx
+Usage: samtools faidx <file.fa|file.fa.gz> [<reg> [...]]
+Option:
+  -o, --output FILE        Write FASTA to file.
+  -n, --length INT         Length of FASTA sequence line. [60]
+  -c, --continue           Continue after trying to retrieve missing region.
+  -r, --region-file FILE   File of regions.  Format is chr:from-to. One per line.
+  -i, --reverse-complement Reverse complement sequences.
+      --mark-strand TYPE   Add strand indicator to sequence name
+                           TYPE = rc   for /rc on negative strand (default)
+                                  no   for no strand indicator
+                                  sign for (+) / (-)
+                                  custom,<pos>,<neg> for custom indicator
+      --fai-idx      FILE  name of the index file (default file.fa.fai).
+      --gzi-idx      FILE  name of compressed file index (default file.fa.gz.gzi).
+  -f, --fastq              File and index in FASTQ format.
+  -h, --help               This message.
+      --output-fmt-option OPT[=VAL]
+               Specify a single output file format option in the form
+               of OPTION or OPTION=VALUE
+  -@, --threads INT
+               Number of additional threads to use [0]
+      --write-index
+               Automatically index the output files [off]
+
+See https://www.htslib.org/doc/samtools.html#GLOBAL_COMMAND_OPTIONS
+for more details.
+(samtools) [a1779913@p2-log-2 ASM3.2]$  samtools faidx chr1_chr2_hap2.fasta
+(samtools) [a1779913@p2-log-2 ASM3.2]$  samtools faidx chr1_chr2_hap2.fasta  chr1_chr2_hap2:80480000-80500000 > chr1-2_L1sat_ref.fa
+(samtools) [a1779913@p2-log-2 ASM3.2]$  less chr1-2_L1sat_ref.fa
+(samtools) [a1779913@p2-log-2 ASM3.2]$  conda activate mm2
+(mm2) [a1779913@p2-log-2 ASM3.2]$  minimap2 -ax map-ont chr1-2_L1sat_ref.fa chr2_motif_clipped.fa  | awk '{ if ($2 == 4) next; print }' | less -S
+(mm2) [a1779913@p2-log-2 ASM3.2]$  minimap2 -ax map-ont chr1-2_L1sat_ref.fa chr2_motif_clipped.fa  | awk '{ if ($2 == 4) next; print }' | less -S
+(mm2) [a1779913@p2-log-2 ASM3.2]$  minimap2 -ax -map-ont HG008T_v3.2.hap2_maskchr19dup.fasta.gz chr2_motif_clipped.fa | awk '{ if ($2 == 4) next; print }' | less -S
+[ERROR] unknown preset '-map-ont'
+(mm2) [a1779913@p2-log-2 ASM3.2]$  minimap2 -ax map-ont HG008T_v3.2.hap2_maskchr19dup.fasta.gz chr2_motif_clipped.fa | awk '{ if ($2 == 4) next; print }' | less -S
+
+(mm2) [a1779913@p2-log-2 ASM3.2]$  minimap2 -ax map-ont chr1_chr2_hap2.fasta chr2_motif_clipped.fa | awk '{ if ($2 == 4) next; print }' | less -S
+(mm2) [a1779913@p2-log-2 ASM3.2]$   samtools faidx chr1_chr2_hap2.fasta  chr1_chr2_hap2:80400000-80510000 > chr1-2_L1sat_ref.fa
+-bash: samtools: command not found
+(mm2) [a1779913@p2-log-2 ASM3.2]$  conda deactivate
+(samtools) [a1779913@p2-log-2 ASM3.2]$  samtools faidx chr1_chr2_hap2.fasta  chr1_chr2_hap2:80400000-80510000 > chr1-2_L1sat_ref.fa
+(samtools) [a1779913@p2-log-2 ASM3.2]$ conda activate mm2
+(mm2) [a1779913@p2-log-2 ASM3.2]$ minimap2 -ax map-ont chr1-2_L1sat_ref.fa chr2_motif_clipped.fa | awk '{ if ($2 == 4) next; print }' | less -S
+(mm2) [a1779913@p2-log-2 ASM3.2]$  minimap2 -ax map-ont chr1-2_L1sat_ref.fa chr2_motif_clipped.fa | awk '{ if ($2 == 4) next; print }' > chr2_motif_clipped.sam
+[M::mm_idx_gen::0.013*1.27] collected minimizers
+[M::mm_idx_gen::0.019*1.76] sorted minimizers
+[M::main::0.019*1.76] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.021*1.69] mid_occ = 10
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.022*1.64] distinct minimizers: 20446 (99.38% are singletons); average occurrences: 1.011; average spacing: 5.323; total length: 110001
+[M::worker_pipeline::0.134*2.55] mapped 36 sequences
+[M::main] Version: 2.30-r1287
+[M::main] CMD: minimap2 -ax map-ont chr1-2_L1sat_ref.fa chr2_motif_clipped.fa
+[M::main] Real time: 0.140 sec; CPU: 0.348 sec; Peak RSS: 0.025 GB
+(mm2) [a1779913@p2-log-2 ASM3.2]$  conda deactivatte
+ Error while loading conda entry point: anaconda-cloud-auth (module 'conda.plugins' has no attribute 'CondaAuthHandler')
+cousage: conda [-h] [-v] [--no-plugins] [-V] COMMAND ...
+conda: error: argument COMMAND: invalid choice: 'deactivatte' (choose from activate, build, check, clean, commands, compare, config, content-trust, convert, create, deactivate, debug, develop, doctor, env, export, index, info, init, inspect, install, list, metapackage, notices, package, plugins, pypi, remove, rename, render, repoquery, run, search, self, skeleton, uninstall, update, upgrade)
+n(mm2) [a1779913@p2-log-2 ASM3.2]$  conda deactivate
+(samtools) [a1779913@p2-log-2 ASM3.2]$  samtools sort chr2_motif_clipped.sam -O BAM -o chr2_motif_clipped.bam
+(samtools) [a1779913@p2-log-2 ASM3.2]$  samtools index chr2_motif_clipped.bam
+(samtools) [a1779913@p2-log-2 ASM3.2]$  minimap2 -ax map-ont chr1-2_L1sat_ref.fa chr2_motif_clipped.fa | awk '{ if ($2 == 4) next; print }' | less -S
+-bash: minimap2: command not found
+(samtools) [a1779913@p2-log-2 ASM3.2]$  conda activate mm2
+(mm2) [a1779913@p2-log-2 ASM3.2]$  minimap2 -ax map-ont chr1-2_L1sat_ref.fa chr2_motif_clipped.fa | awk '{ if ($2 == 4) next; print }' | less -S
+(mm2) [a1779913@p2-log-2 ASM3.2]$  minimap2 -ax map-ont chr1_chr2_hap2.fasta chr2_motif_clipped.fa | awk '{ if ($2 == 4) next; print }' | less -S
+(mm2) [a1779913@p2-log-2 ASM3.2]$  conda deactivate
+(samtools) [a1779913@p2-log-2 ASM3.2]$ samtools sort -O BAM -o motif.bam motif.sam
+(samtools) [a1779913@p2-log-2 ASM3.2]$ samtools index motif.bam
+(samtools) [a1779913@p2-log-2 ASM3.2]$  samtools view motif.bam | less -S
+(samtools) [a1779913@p2-log-2 ASM3.2]$  ls ../*.sh
+../allseq_insRG.sh  ../count_ins_del_snif_N.sh  ../GTextractor.sh      ../mapNextract.sh       ../mei_process.sh  ../N-whole_genome_extractor.sh  ../split_SV-30.sh
+../allseqins.sh     ../extractor.sh             ../hg008_check_var.sh  ../mei_extractor.sh     ../mm2_temap.sh    ../RNUinCHM.sh                  ../textractor.sh
+../blat_run.sh      ../fiveinv.sh               ../info.sh             ../mei_poly_ins_len.sh  ../multimatch.sh   ../snif2.6.sh                   ../V2_GTextractor.sh
+(samtools) [a1779913@p2-log-2 ASM3.2]$ bash ../V2_GTextractor.sh
+>INS-Output:CRAM-len:---C,_Line:6_Start:CRAM:len:0_flag:--cram_Ins_Count:1 pre2:  post2: -T)
+
+>INS-Include:header-len:--h,_Line:9_Start:header:len:0_flag:--with-header_Ins_Count:2 pre2:  post2: SAM
+
+>INS-Set:flag-len:--p,_Line:17_Start:flag:len:8_flag:--unmap_Ins_Count:3 pre2:  post2:selected UNMAP
+
+>INS-INT:...cover-len:--m,_Line:39_Start:...cover:len:8_flag:--min-qlen_Ins_Count:4 pre2:  post2:measured INT
+
+>INS-Collapse:the-len:--B,_Line:62_Start:the:len:0_flag:--remove-B_Ins_Count:5 pre2:  post2: CIGAR
+
+>INS-not:add-len:---no-PG_Line:69_Start:add:len:0_flag:Do_Ins_Count:6 pre2:  post2: PG
+
+>INS-format:(SAM,-len:-Specify_Line:74_Start:(SAM,:len:0_flag:output_Ins_Count:7 pre2:  post2: CRAM)
+
+(samtools) [a1779913@p2-log-2 ASM3.2]$  nano ../V2_GTextractor.sh
+(samtools) [a1779913@p2-log-2 ASM3.2]$  bash ../extractor.sh motif.bam chr1_chr2_hap2:80516129-80516243 00I | less -S
+(samtools) [a1779913@p2-log-2 ASM3.2]$  bash ../extractor.sh motif.bam chr1_chr2_hap2:80516129-80516243 00I | less -S
+(samtools) [a1779913@p2-log-2 ASM3.2]$ perl -nle 'print join(" ", /pattern/g) if /pattern/' history -a
+Can't open history: No such file or directory.
+Can't open -a: No such file or directory.
+(samtools) [a1779913@p2-log-2 ASM3.2]$  history -a
+(samtools) [a1779913@p2-log-2 ASM3.2]$ ^C
+(samtools) [a1779913@p2-log-2 ASM3.2]$
+
+
+
+filtering data:
+cat l1satheader.sam l1sat_filt.sam > l1sat_filt_h.sam
+ less l1sat_filt_h.sam
+ nano l1satheader.sam
+ cat l1satheader.sam l1sat_filt.sam > l1sat_filt_h.sam
+less l1sat_filt_h.sam
+awk '{ print $12 }' l1sat_filt_h.sam | less
+awk '{ print; print length($10), $12 }' l1sat_filt_h.sam | less -S
+awk '{ print; print length($10), $12, $14 }' l1sat_filt_h.sam | less -S
+ awk '{ print $14 }' l1sat_filt_h.sam | sort -n | uniq -c | less
+ grep "[0-9]*S"  l1sat_filt_h.sam  | less
+ grep -o "[0-9]*S"  l1sat_filt_h.sam  | less
+ less -S l1sat_filt_h.sam
+  grep -o "[0-9][0-9]*S"  l1sat_filt_h.sam  | less
+perl -nle 'print join(" ", /[0-9][0-9]*S/g) if /[0-9][0-9]*S/'  l1sat_filt_h.sam  | less
+less -S l1sat_filt_h.sam
+
+get two matches on one line: perl -nle 'print join(" ", /[0-9][0-9]*S/g) if /[0-9][0-9]*S/'  l1sat_filt_h.sam  | less
+
+ samtools view ../HG008-T.bam | awk '{ printf(">%s_%s_%s_%s\n%s\n",$1,$2,$3,$4,$10) }' | minimap2 -ax map-hifi l1satROI.fa - | less -S
+
+ samtools view ../HG008-T.bam | awk '{ printf(">%s_%s_%s_%s\n%s\n",$1,$2,$3,$4,$10) }' | minimap2 -ax map-hifi l1satROI.fa - |  awk '{ if ($2 == "4") next; print }' > l1sat.sam
+
